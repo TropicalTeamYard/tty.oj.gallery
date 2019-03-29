@@ -1,4 +1,5 @@
 #include<iostream>
+#include<cstdio>
 //#include<sstream>
 #include<cmath>
 using namespace std;
@@ -37,9 +38,18 @@ void c_1172_operate(ld *data,int datalength,int *inputdata)
 		ld sum = 0;
 		for (int i = x; i <= y; i++)
 		{
-			sum += (ld)(pow(data[i], u)) ;
+			if (u == 1) {
+				sum+=data[i];
+			}
+			else if (u == 2) {
+				sum+= data[i] * data[i];
+			}
+			else if (u == 3) {
+				sum+= data[i] * data[i] * data[i];
+			}
+			
 		}
-		cout << sum % 10007 << endl;
+		cout << sum % 10007;
 	}
 }
 
@@ -49,7 +59,7 @@ int main()
 	int datalength = 0;
 
 	int n, m;
-	while (cin >> n >> m && !(n==0 && m==0))
+	while (cin >> n >> m  && !(n==0 && m==0))
 	{
 		if (data != NULL)
 		{
@@ -62,7 +72,7 @@ int main()
 			int inputdata[4];
 			for (int j = 0; j < 4; j++)
 			{
-				cin >> inputdata[j];
+				cin>>inputdata[j];
 			}
 			c_1172_operate(data, datalength, inputdata);
 		}
