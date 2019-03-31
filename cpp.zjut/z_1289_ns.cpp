@@ -1,4 +1,5 @@
 #include<iostream>
+#include<algorithm>
 using namespace std;
 
 void set_minus(int *arr_a,int arr_a_length,int *arr_b,int arr_b_length, int* result, int* length)
