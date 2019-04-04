@@ -14,28 +14,35 @@
 
 ## PullRequest提交说明
 
-1. 网页版提交方法(推荐)
-    
-    1. 转到你想要提交的文件夹目录
+> 因为不属于这个团队的成员不能够写这个项目，所以必须要Fork，然后提交。
 
-    2. 单击`Upload Files`按钮。
+1. 网页版提交方法(推荐)*(以修正)*
 
-    3. 拖拽文件到提示框。
+    1. [Fork这个项目](https://github.com/TropicalTeamYard/tty.oj.gallery/fork)
 
-    4. 写好一定的信息后点击`Commit changes`
+    2. 在网页版上更改`Fork后`的代码，例如上传文件等。
+
+    3. 修改结束后，选择`New pull request`.
+
+    4. 确认`base repository`位`TropocalTeamYard/tty.oj.gallery`后，点击`Create pull request`.
+
+    5. 在项目拥有者接受该`提交`后，你便成功地提交了你的代码。
+
 
 2. Github Desktop提交方法。
 
-    1. [Fork这个项目](https://github.com/TropicalTeamYard/tty.oj.gallery/fork
-)
+    1. [Fork这个项目](https://github.com/TropicalTeamYard/tty.oj.gallery/fork)
+
     2. 在`Github Desktop`上克隆这个项目(File > Clone repository...)
 
     3. 更改后单击`Commit to master` 然后单击`pull origin`
 
     4. 提交后，打开`此项目的网页(克隆后的)`，并单击`New pull request`。
 
+3. 获取读写权限：把github账号发给我即可。
+
 # LINCESE
 
 这个项目建立在GNU协议之上。
 
-cht:~~`1172`~~,~~`1175`~~,~~`1188`~~,~~`1391`~~,~~`1393`~~,~~`1448`~~,~~`1449B`~~,~~`1450`~~,`1451`,~~`1480`~~,~~`1485`~~,~~`1486`~~,~~`1600`~~,`1604`,~~`1607`~~,~~`1610`~~,~~`1630BY`~~,`1633`,`1635B`,`1645`,`1673`,`1674`,`1678Y`,`1751`,`1752`,
+cht:~~`1172`~~,~~`1175`~~,~~`1188`~~,~~`1391`~~,~~`1393`~~,~~`1448`~~,~~`1449B`~~,~~`1450`~~,`1451`,~~`1480`~~,~~`1485`~~,~~`1486`~~,~~`1600`~~,`1604`,~~`1607`~~,~~`1610`~~,~~`1630BY`~~,~~`1633`~~,~~`1635B`~~,`1645`,`1673`,`1674`,`1678Y`,`1751`,`1752`,
