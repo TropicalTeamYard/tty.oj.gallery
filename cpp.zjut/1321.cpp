@@ -1,4 +1,4 @@
-#include <iostream>								//Max interval
+#include <iostream>								//Dividing
 #include <bits/stdc++.h>
 using namespace std;
 int n;
