@@ -1,4 +1,4 @@
-/*
+a/*
 @title:互质的个数
 @id:1202
 @difficulty:1.5/5

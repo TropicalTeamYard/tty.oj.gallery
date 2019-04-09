@@ -33,7 +33,7 @@ bool string_comparer(const string &a, const string &b)
     return false;
 }
 
-int acm_z_1485()
+int main()
 {
     int num;
     
